@@ -6,4 +6,11 @@ $(document).ready(function(){
         draggable: false,
         // centerMode: true
     });
+    $('.partners__slider').slick({
+        arrows: false,
+        slidesToShow: 4,
+        slidesToScroll: 2,
+        draggable: true,
+        // centerMode: true
+    });
 });
