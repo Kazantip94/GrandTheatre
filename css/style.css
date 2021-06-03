@@ -652,7 +652,8 @@ p {
   position: relative; }
 
 .partners__slider-item {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 80px; }
 
 .footer {
   display: flex;
