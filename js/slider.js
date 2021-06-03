@@ -11,6 +11,6 @@ $(document).ready(function(){
         slidesToShow: 4,
         slidesToScroll: 2,
         draggable: true,
-        // centerMode: true
+        rows: 2
     });
 });
