@@ -9,7 +9,7 @@
     font-display: wrap;
     }
 @font-face {
-    font-family: 'Open Sans Condensed';
+    font-family: 'Open Sans Condensed Light';
     src: 
     url('../fonts/OpenSansCondensed/OpenSansCondensed-Light.woff') format('woff'),
     url('../fonts/OpenSansCondensed/OpenSansCondensed-Light.woff2') format('woff');
@@ -17,3 +17,12 @@
     font-style: normal;
     font-display: wrap;
         }
+@font-face {
+    font-family: 'Open Sans Condensed Bold';
+    src: 
+    url('../fonts/OpenSansCondensed/OpenSansCondensed-Bold.woff') format('woff'),
+    url('../fonts/OpenSansCondensed/OpenSansCondensed-Bold.woff2') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: wrap;
+                }

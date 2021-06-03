@@ -6,9 +6,16 @@
   font-display: wrap; }
 
 @font-face {
-  font-family: 'Open Sans Condensed';
+  font-family: 'Open Sans Condensed Light';
   src: url("../fonts/OpenSansCondensed/OpenSansCondensed-Light.woff") format("woff"), url("../fonts/OpenSansCondensed/OpenSansCondensed-Light.woff2") format("woff");
   font-weight: 300;
+  font-style: normal;
+  font-display: wrap; }
+
+@font-face {
+  font-family: 'Open Sans Condensed Bold';
+  src: url("../fonts/OpenSansCondensed/OpenSansCondensed-Bold.woff") format("woff"), url("../fonts/OpenSansCondensed/OpenSansCondensed-Bold.woff2") format("woff");
+  font-weight: bold;
   font-style: normal;
   font-display: wrap; }
 
@@ -364,7 +371,7 @@ p {
     display: flex;
     flex-direction: column; }
   .header__title {
-    font-family: Open Sans Condensed;
+    font-family: Open Sans Condensed Bold;
     font-weight: bold;
     font-size: 64px;
     line-height: 87px;
@@ -376,7 +383,7 @@ p {
     line-height: 150%;
     margin: 50px 0; }
   .header__button {
-    font-family: Open Sans Condensed;
+    font-family: Open Sans Condensed Bold;
     font-weight: bold;
     font-size: 18px;
     line-height: 25px;
@@ -433,7 +440,7 @@ p {
   .nav__item {
     text-decoration: none;
     color: #fff;
-    font-family: Open Sans Condensed;
+    font-family: Open Sans Condensed Bold;
     font-weight: bold;
     font-size: 18px;
     line-height: 25px;
@@ -446,7 +453,7 @@ p {
   .contact__phone {
     text-decoration: none;
     color: #fff;
-    font-family: Open Sans Condensed;
+    font-family: Open Sans Condensed Bold;
     font-weight: bold;
     font-size: 16px;
     line-height: 22px;
@@ -469,7 +476,7 @@ p {
   z-index: 999;
   overflow: hidden; }
   .social__title {
-    font-family: Open Sans Condensed;
+    font-family: Open Sans Condensed Bold;
     font-weight: bold;
     font-size: 18px;
     line-height: 25px;
@@ -539,7 +546,7 @@ p {
   margin-top: 150px; }
   .theater__title {
     text-align: center;
-    font-family: Open Sans Condensed;
+    font-family: Open Sans Condensed Light;
     font-weight: 300;
     font-size: 48px;
     line-height: 65px;
@@ -554,7 +561,7 @@ p {
     flex-direction: column;
     max-width: 445px; }
   .theater__heading {
-    font-family: Open Sans Condensed;
+    font-family: Open Sans Condensed Bold;
     font-weight: bold;
     font-size: 21px;
     line-height: 29px;
@@ -580,7 +587,7 @@ p {
     max-width: 70px;
     height: 100%; }
   .theater__chair-text {
-    font-family: Open Sans Condensed;
+    font-family: Open Sans Condensed Bold;
     font-weight: bold;
     font-size: 16px;
     line-height: 22px;
@@ -614,7 +621,7 @@ p {
     margin-left: 190px;
     margin-right: 103px; }
   .stars__year {
-    font-family: Open Sans Condensed;
+    font-family: Open Sans Condensed Bold;
     font-style: normal;
     font-weight: bold;
     font-size: 72px;
@@ -641,7 +648,7 @@ p {
   justify-content: center;
   margin-top: 150px; }
   .partners__title {
-    font-family: Open Sans Condensed;
+    font-family: Open Sans Condensed Light;
     font-weight: 300;
     font-size: 48px;
     line-height: 65px;
@@ -663,7 +670,7 @@ p {
   justify-content: center;
   margin-top: 120px; }
   .footer__title {
-    font-family: Open Sans Condensed;
+    font-family: Open Sans Condensed Light;
     font-weight: 300;
     font-size: 48px;
     line-height: 65px;
@@ -681,7 +688,7 @@ p {
     max-width: 255px;
     margin-right: 125px; }
   .footer__phone {
-    font-family: Open Sans Condensed;
+    font-family: Open Sans Condensed Bold;
     font-weight: bold;
     font-size: 16px;
     line-height: 22px;
@@ -721,7 +728,7 @@ p {
     line-height: 150%;
     color: #989898; }
   .footer__btn {
-    font-family: Open Sans Condensed;
+    font-family: Open Sans Condensed Bold;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
