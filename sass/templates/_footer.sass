@@ -14,10 +14,12 @@
         margin-bottom: 100px
     &__maecenas
         display: flex
+        margin-bottom: 80px
     &__contact
         display: flex
         flex-direction: column
         max-width: 255px
+        margin-right: 125px
     &__phone
         font-family: Open Sans Condensed
         font-weight: bold
@@ -27,22 +29,30 @@
         text-transform: uppercase
         color: #FFFFFF
     &__wrap
-        width: 100%
+        max-width: 730px
     &__block-one
         display: flex
-        justify-content: space-between
+        // justify-content: space-between
         margin-bottom: 40px
     &__input-group
         display: flex
         flex-direction: column
+    ::placeholder
+        color: #989898
+    &__input-group--one
+        margin-right: 30px
     &__input
         width: 180px
         height: 35px
+        padding: 0 0 0 15px
+        border: 1px solid #616161
+        background: #444444
     &__input-top
         margin-bottom: 30px
     &__input--primary
         width: 310px
         height: 100px
+        padding: 0 0 65px 15px
     &__block-two
         display: flex
         justify-content: space-between
@@ -66,4 +76,18 @@
         padding: 0
         border: none
         background: #D1A954
+        cursor: pointer
+    &__dev
+        display: flex
+        justify-content: space-between
+        align-items: flex-end
+        height: 48px
+        margin-bottom: 30px
+        border-top: 1px solid #565656
+    &__text
+        font-family: Open Sans
+        font-size: 12px
+        line-height: 150%
+        text-align: right
+        color: #989898
     
