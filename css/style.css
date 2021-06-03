@@ -595,6 +595,9 @@ p {
     object-fit: contain;
     height: 100%; }
 
+.color {
+  color: #D1A954; }
+
 .stars {
   display: flex;
   justify-content: center;
