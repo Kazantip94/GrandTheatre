@@ -363,13 +363,13 @@ p {
     justify-content: center; }
   .header__wrapper {
     display: flex;
-    margin-top: 190px;
-    align-items: center; }
+    margin-top: 190px; }
   .header__content {
     max-width: 540px;
     height: 296px;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    margin-top: 8.5rem; }
   .header__title {
     font-family: Open Sans Condensed Bold;
     font-weight: bold;
@@ -381,7 +381,8 @@ p {
     font-family: Open Sans;
     font-size: 14px;
     line-height: 150%;
-    margin: 50px 0; }
+    margin-top: 2.2rem;
+    margin-bottom: 3.3rem; }
   .header__button {
     font-family: Open Sans Condensed Bold;
     font-weight: bold;
@@ -447,7 +448,7 @@ p {
     line-height: 25px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    margin-right: 63px; }
+    margin-right: 62px; }
 
 .contact {
   border-bottom: 2px solid #D1A954; }
@@ -503,7 +504,7 @@ p {
     filter: invert(67%) sepia(16%) saturate(1120%) hue-rotate(3deg) brightness(96%) contrast(104%); }
 
 .youtube {
-  margin-bottom: 86px; }
+  margin-bottom: 8.3rem; }
 
 .instagram {
   margin-top: 250px; }
@@ -539,7 +540,7 @@ p {
 
 .header__wrap-slider {
   width: 370px;
-  margin: 0 auto; }
+  margin-left: 9rem; }
 
 .theater {
   display: flex;
@@ -569,7 +570,7 @@ p {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin: 0 0 40px 0; }
+    margin: 0 0 34px 0; }
   .theater__text {
     font-family: Open Sans;
     font-style: normal;
@@ -598,13 +599,13 @@ p {
   .theater__theater-icon {
     max-width: 70px;
     height: 100%;
-    margin-top: 25px; }
+    margin-top: 21px; }
 
 .color {
   color: #D1A954; }
 
 .staging {
-  margin: 150px 0 150px; }
+  margin: 144px 0 150px; }
   .staging__title {
     font-family: Open Sans Condensed Light;
     font-weight: 300;
@@ -640,8 +641,69 @@ p {
   left: 0;
   height: 100%;
   width: 100%;
-  transition: all 1s ease;
+  transition: 0.8s;
   background: linear-gradient(0deg, rgba(51, 51, 51, 0.65), rgba(51, 51, 51, 0.65)); }
+
+.staging__item:hover::after {
+  display: none; }
+
+.staging__link {
+  background: #D1A954 url(../img/search.svg) center no-repeat;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50px, -50px);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.8s;
+  cursor: pointer; }
+
+.staging__item:hover .staging__link {
+  visibility: visible;
+  opacity: 1; }
+
+.staging__heading {
+  font-family: Open Sans Condensed Bold;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  z-index: 4;
+  opacity: 1;
+  visibility: visible; }
+
+.staging__subtitle {
+  font-family: Open Sans Condensed Bold;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transform: rotate(-90deg);
+  position: absolute;
+  bottom: 80px;
+  z-index: 4;
+  opacity: 1;
+  visibility: visible; }
+
+.staging__item:hover .staging__subtitle {
+  opacity: 0;
+  visibility: hidden; }
+
+.staging__item:hover .staging__heading {
+  opacity: 0;
+  visibility: hidden; }
 
 .stars {
   display: flex;
@@ -669,9 +731,10 @@ p {
   .stars__text {
     display: flex;
     flex-direction: column;
-    justify-content: center; }
+    justify-content: center;
+    margin-left: 1.5rem; }
   .stars__star {
-    margin-right: 25px;
+    margin-right: 21px;
     margin-bottom: 25px; }
   .stars__description {
     font-weight: bold;
@@ -705,7 +768,7 @@ p {
 .footer {
   display: flex;
   justify-content: center;
-  margin-top: 120px; }
+  margin-top: 2.4rem; }
   .footer__title {
     font-family: Open Sans Condensed Light;
     font-weight: 300;
@@ -723,7 +786,7 @@ p {
     display: flex;
     flex-direction: column;
     max-width: 255px;
-    margin-right: 125px; }
+    margin-right: 134px; }
   .footer__phone {
     font-family: Open Sans Condensed Bold;
     font-weight: bold;
@@ -732,7 +795,7 @@ p {
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-bottom: 25px; }
+    margin-bottom: 20px; }
   .footer__wrap {
     max-width: 730px; }
   .footer__block-one {
