@@ -1014,9 +1014,9 @@ p {
     margin-left: 99px; }
   .partners {
     margin-top: 90px; }
-  .slick-list {
+  .partners .slick-list {
     padding: 0 !important; }
-  .slick-slide {
+  .partners .slick-slide {
     max-width: 200px;
     margin-right: 78px; }
   .footer__wrap {
@@ -1024,4 +1024,6 @@ p {
   .footer__title {
     margin-bottom: 60px; }
   .footer__maecenas {
+    margin: 0; }
+  .footer__dev {
     margin: 0; } }
