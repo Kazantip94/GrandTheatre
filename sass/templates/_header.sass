@@ -9,12 +9,12 @@
     &__wrapper
         display: flex
         margin-top: 190px
-        align-items: center
     &__content
         max-width: 540px
         height: 296px
         display: flex
         flex-direction: column
+        margin-top: 8.5rem
     &__title
         font-family: Open Sans Condensed Bold
         font-weight: bold
@@ -26,7 +26,8 @@
         font-family: Open Sans
         font-size: 14px
         line-height: 150%
-        margin: 50px 0
+        margin-top: 2.2rem
+        margin-bottom: 3.3rem
     &__button
         font-family: Open Sans Condensed Bold
         font-weight: bold
@@ -90,7 +91,7 @@
         line-height: 25px
         letter-spacing: 0.1em
         text-transform: uppercase
-        margin-right: 63px
+        margin-right: 62px
 .contact
     border-bottom: 2px solid #D1A954
     &__phone
@@ -143,7 +144,7 @@
     &__icon:hover
         filter: invert(67%) sepia(16%) saturate(1120%) hue-rotate(3deg) brightness(96%) contrast(104%)
 .youtube
-    margin-bottom: 86px
+    margin-bottom: 8.3rem
 .instagram
     margin-top: 250px
 
@@ -173,7 +174,124 @@
     cursor: pointer
 .header__wrap-slider
     width: 370px
+    margin-left: 9rem
+
+//бургер
+.burger-menu
+    top: 0
+    left: 0
+    z-index: 9999
+    background-color: #0F0F0F
+    display: none
+.burger-menu__button
+    position: fixed
+    top: 50px
+    left: 33px
+    z-index: 30
+    width: 40px
+    height: 40px
+    transition: 0.4s
+.burger-menu__lines
+    position: absolute
+    width: 20px
+    height: 3px
+    background-color: #fff
+.burger-menu__lines::after
+    position: absolute
+    width: 10px
+    height: 3px
+    background-color: #fff
+.burger-menu__lines::before
+    position: absolute
+    height: 3px
+    width: 30px
+    background-color: #fff
+.burger-menu__lines
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+.burger-menu__lines::before
+    content: ''
+    top: -10px
+.burger-menu__lines::after
+    content: ''
+    top: 10px
+.burger-menu__active .burger-menu__lines
+    background-color: transparent
+.burger-menu__active .burger-menu__lines::before
+    background-color: transparent
+.burger-menu__active .burger-menu__lines::after
+    background-color: transparent
+.burger-menu__nav
+    position: fixed
+    z-index: 20
+    display: flex
+    flex-flow: column
+    top: 0
+    left: 0
+    bottom: 0
+    width: 300px
+    background-color: #333333
+    overflow-y: auto
+    left: -100%
+    transition: 0.4s
+.burger-menu__active .burger-menu__nav
+    left: 0
+.burger-menu__link
+    margin: 0 0 35px 39px
+    font-family: Open Sans Condensed Bold
+    font-style: normal
+    font-weight: bold
+    font-size: 24px
+    line-height: 33px
+    letter-spacing: 0.05em
+    text-transform: uppercase
+    color: #FFFFFF
+    cursor: pointer
+.burger-menu__link:hover
+    transition: 150ms ease-in
+    color: #fff
+.burger-menu__overlay
+    display: none
+    position: fixed
+    top: 0
+    left: 0
+    width: 100vw
+    height: 100vh
+    z-index: 10
+.burger-menu__active .burger-menu__overlay
+    display: block
+.burger__block
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    align-self: 
+    width: 134px
+    height: 126px
     margin: 0 auto
+    margin-top: 54px
+.phone_icon
+    width: 45px
+    height: 45px
+    cursor: pointer
+.phone_icon:hover
+    filter: invert(67%) sepia(16%) saturate(1120%) hue-rotate(3deg) brightness(96%) contrast(104%)
+.vk
+    margin-top: 35px
+.fixed
+    position: fixed
+    width: 100%
+    top: 0
+    z-index: 55
+.close
+    margin: 30px 30px 78px 238px
+    padding: 0
+    height: 32px
+    width: 32px
+    background: transparent
+    border: none
+    cursor: pointer
+
 
 
 
