@@ -32,11 +32,18 @@ $(document).ready(function(){
               }
             },
             {
-              breakpoint: 480,
+              breakpoint: 767,
               settings: {
                 arrows: false,
-                centerMode: true,
-                centerPadding: '40px',
+                centerMode: false,
+                slidesToShow: 2
+              }
+            },
+            {
+              breakpoint: 556,
+              settings: {
+                arrows: false,
+                centerMode: false,
                 slidesToShow: 1
               }
             }
@@ -49,26 +56,5 @@ $(document).ready(function(){
         draggable: true,
         variableWidth: true,
         waitForAnimate: true,
-        touchThreshold: 10,
-        // responsive: [
-        //   {
-        //     breakpoint: 1400,
-        //     settings: {
-        //       arrows: false,
-        //       centerMode: true,
-        //       variableWidth: false,
-        //       slidesToShow: 3
-        //     }
-        //   },
-        //   {
-        //     breakpoint: 480,
-        //     settings: {
-        //       arrows: false,
-        //       centerMode: true,
-        //       centerPadding: '40px',
-        //       slidesToShow: 1
-        //     }
-        //   }
-        // ]
     });
 });
