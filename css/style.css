@@ -1260,10 +1260,15 @@ p {
     letter-spacing: 3px;
     font-size: 54px;
     line-height: 58px; }
+  .burger-menu__nav {
+    width: 100%; }
+  .burger-menu__link {
+    margin: 0 0 35px 0;
+    text-align: center; }
   .theater {
     margin-top: 60px; }
     .theater__block-wrap {
-      justify-content: center;
+      justify-content: space-around;
       align-items: flex-start; }
     .theater__block-one {
       margin-left: 0; }
@@ -1272,6 +1277,15 @@ p {
   .staging {
     margin-top: 60px;
     margin-bottom: 60px; }
+    .staging__item {
+      max-width: 254px;
+      height: 316px; }
+    .staging__heading {
+      top: 20px;
+      left: 20px; }
+    .staging__subtitle {
+      left: -30px;
+      bottom: 70px; }
   .stars__wrap {
     flex-direction: column; }
   .stars__years {
