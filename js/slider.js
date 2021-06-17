@@ -60,5 +60,6 @@ $(document).ready(function(){
         swipeToSlide: true,
         draggable: true,
         waitForAnimate: false,
+        variableWidth: true,
     });
 });
