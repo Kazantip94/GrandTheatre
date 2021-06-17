@@ -8,6 +8,9 @@ $(document).ready(function(){
     });
     $('.partners__slider').slick({
         arrows: false,
+        swipe: true,
+        swipeToSlide: true,
+        touchMove: true,
         slidesToShow: 4,
         slidesToScroll: 1,
         draggable: true,
@@ -40,7 +43,7 @@ $(document).ready(function(){
               }
             },
             {
-              breakpoint: 556,
+              breakpoint: 567,
               settings: {
                 arrows: false,
                 centerMode: false,
@@ -51,6 +54,9 @@ $(document).ready(function(){
     });
     $('.staging__slider').slick({
         arrows: false,
+        swipe: true,
+        swipeToSlide: true,
+        touchMove: true,
         slidesToShow: 4,
         slidesToScroll: 1,
         draggable: true,

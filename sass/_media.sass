@@ -254,7 +254,7 @@
             margin-top: 30px
             text-align: center
             max-width: 435px
-@media only screen and (max-width: 556px)
+@media only screen and (max-width: 567px)
         .title
             font-size: 43px
             letter-spacing: 3px
@@ -316,13 +316,35 @@
             text-align: center
         .footer
             &__maecenas
+                max-width: 338px
+            &__wrap
+                max-width: 338px
+            &__input
+                width: 150px
+            &__input--primary
+                width: 338px
+            &__contact
+                margin-bottom: 40px
+            &__phone
+                font-size: 13px
+                line-height: 12px
+            &__dev
+                align-items: flex-start
+                justify-content: space-between
+                margin: 0
+            &__text  
+                font-size: 10px
+                margin-bottom: 10px
+@media only screen and (max-width: 420px)
+        .footer
+            &__maecenas
+                max-width: 254px
+            &__wrap
                 max-width: 254px
             &__input
-                width: 254px
-            &__input-group--one
-                margin-bottom: 30px
+                width: 120px
             &__input--primary
-                margin-top: 0
+                width: 254px
             &__contact
                 flex-direction: column
                 align-items: center
