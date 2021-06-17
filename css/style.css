@@ -6,6 +6,20 @@
   font-display: wrap; }
 
 @font-face {
+  font-family: 'Open Sans Semi';
+  src: url("../fonts/OpenSans/OpenSans-SemiBold.woff") format("woff"), url("../fonts/OpenSans/OpenSans-SemiBold.woff2") format("woff");
+  font-weight: 600px;
+  font-style: normal;
+  font-display: wrap; }
+
+@font-face {
+  font-family: 'Open Sans Bold';
+  src: url("../fonts/OpenSans/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans/OpenSans-Bold.woff2") format("woff");
+  font-weight: 700px;
+  font-style: normal;
+  font-display: wrap; }
+
+@font-face {
   font-family: 'Open Sans Condensed Light';
   src: url("../fonts/OpenSansCondensed/OpenSansCondensed-Light.woff") format("woff"), url("../fonts/OpenSansCondensed/OpenSansCondensed-Light.woff2") format("woff");
   font-weight: 300;
@@ -873,6 +887,7 @@ p {
     margin-right: 21px;
     margin-bottom: 25px; }
   .stars__description {
+    font-family: Open Sans Bold;
     font-weight: bold;
     font-size: 36px;
     line-height: 150%;
@@ -1002,7 +1017,7 @@ p {
 
 ::placeholder {
   color: #989898;
-  font-family: Open Sans;
+  font-family: Open Sans Semi;
   font-weight: 600;
   font-size: 12px;
   line-height: 150%; }

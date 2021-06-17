@@ -9,6 +9,24 @@
     font-display: wrap;
     }
 @font-face {
+    font-family: 'Open Sans Semi';
+    src: 
+    url('../fonts/OpenSans/OpenSans-SemiBold.woff') format('woff'),
+    url('../fonts/OpenSans/OpenSans-SemiBold.woff2') format('woff');
+    font-weight: 600px;
+    font-style: normal;
+    font-display: wrap;
+        }
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: 
+    url('../fonts/OpenSans/OpenSans-Bold.woff') format('woff'),
+    url('../fonts/OpenSans/OpenSans-Bold.woff2') format('woff');
+    font-weight: 700px;
+    font-style: normal;
+    font-display: wrap;
+                }
+@font-face {
     font-family: 'Open Sans Condensed Light';
     src: 
     url('../fonts/OpenSansCondensed/OpenSansCondensed-Light.woff') format('woff'),

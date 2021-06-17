@@ -11,6 +11,7 @@ $(document).ready(function(){
         swipe: true,
         swipeToSlide: true,
         touchMove: true,
+        touchThreshold: 100,
         slidesToShow: 4,
         slidesToScroll: 1,
         draggable: true,
@@ -53,14 +54,11 @@ $(document).ready(function(){
           ]
     });
     $('.staging__slider').slick({
-        arrows: false,
-        swipe: true,
-        swipeToSlide: true,
-        touchMove: true,
+        arrows: false,   
         slidesToShow: 4,
         slidesToScroll: 1,
+        swipeToSlide: true,
         draggable: true,
-        variableWidth: true,
-        waitForAnimate: true,
+        waitForAnimate: false,
     });
 });
